@@ -1,0 +1,114 @@
+
+article{
+    width:100%;
+    min-height:175px;
+    margin-top: 20px;
+    background-color: #fafafa;
+    border: 2px solid black;
+}
+.image{
+    width:20%;
+    height: auto;
+    margin: 0 0 10px 0;
+    float: left;
+}
+.txt{
+    width:78%;
+    height: auto;
+    padding-left:25px;
+    float: left;
+}
+.review{
+    width: 50%;
+    padding-top:5px;
+    margin-left: 165px;
+    margin-top: 10px;
+}
+.menu-trigger{
+    display:none;
+}
+@media screen and (max-width:600px){
+    div.mobile-collapse{
+    width:auto;
+    float:none;
+    margin-right:0;
+}
+    nav.ul.li{
+        float: none;
+    }
+    li{
+        float: none;
+        border-bottom: 2px solid #d5dce4;
+    }
+    li:last-child{
+        border: none;
+    }
+    .userInput-resp{
+        width: 50%;
+        padding-top:5px;
+        margin-left: 0;
+    }
+    .review-resp{
+        margin-left: 70px;
+    }
+    .menu-trigger{
+        display:block;
+        color: #305782;
+        background-color: #d5dce4;
+        padding: 10px;
+        text-align: right;
+        font-size: 83%;
+        cursor: pointer;
+    }
+    div.nav-menu ul li {
+        float: none;
+        border-bottom: 2px solid #d5dce4;
+    }
+
+    div.nav-menu ul li:last-child {
+        border-bottom: none;
+    }
+    nav{
+        display: none;
+    }
+    div.nav-expanded{
+        display:block;
+    }
+}
+@media screen and (min-width:601px) and (max-width: 1000px){
+    div.mobile-collapse{
+        width:auto;
+        float:none;
+        margin-right:0;
+    }
+    .userInput-resp{
+        width: 50%;
+        padding-top:5px;
+        margin-left: 0;
+    }
+    .review-resp{
+        margin-left: 70px;
+    }
+}
+@media screen and (min-width:1001px) and (max-width: 1600px){
+
+    .form-control{
+        margin-left: 32px;
+    }
+    .form-control-author{
+        margin-left: 15px;
+    }
+    .form-group{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .userInput-resp{
+        width: 85%;
+        padding-top:5px;
+        margin-left: 0;
+    }
+    .review-resp{
+        margin-left: 10px;
+    }
+}

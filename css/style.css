@@ -1,0 +1,130 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.btn{
+    color:#ffa930;
+    background: none;
+    border: none;
+    display: inline;
+    font: inherit;
+    outline: none;
+    outline-offset: 0;
+}
+.btn-normal{
+    background: none;
+    border: none;
+    display: inline;
+    font: inherit;
+    outline: none;
+    outline-offset: 0;
+}
+.container {
+    width: 70%;
+    height: 100%;
+    margin-left:15%;
+    margin-right:15%;
+}
+header{
+    width:100%;
+    height: 70px;
+    background-color: #eb1560;
+    color:white;
+    padding-top: 2px;
+    padding-left: 45px;
+}
+nav{
+    background-color: white;
+}
+ul{
+    list-style:none;
+    overflow: hidden;
+}
+li{
+    float: left;
+    padding-left:10px;
+    font-weight: 700;
+}
+.middle-container{
+    width:100%;
+    min-height: 600px;
+    background-color: #e3e3e3;
+    padding: 10px;
+    overflow: hidden;
+}
+.inner-left{
+    width: 45%;
+    /*min-height: 600px;*/
+    float: left;
+}
+section{
+
+    padding:15px;
+    background-color: #fafafa;
+}
+
+.userInput-form{
+    width: 50%;
+    padding-top:5px;
+    margin-left: 165px;
+}
+.form-control{
+    margin-left: 30px;
+}
+.form-control-author{
+    margin-left: 15px;
+}
+.form-group{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+article{
+    width:100%;
+    min-height:175px;
+    margin-top: 20px;
+    background-color: #fafafa;
+    border: 2px solid black;
+}
+img{
+    max-width:100%;
+    height: auto;
+    margin: 0 0 10px 0;
+}
+.image{
+    max-width:100%;
+    height: auto;
+    margin: 0 0 10px 0;
+    float: left;
+}
+.txt{
+    width:70%;
+    padding-left:25px;
+    float: left;
+}
+.review{
+    width: 50%;
+    padding-top:5px;
+    margin-left: 165px;
+    margin-top: 10px;
+}
+.inner-right{
+    width: 55%;
+    /*min-height: 600px;*/
+    float: left;
+}
+aside{
+    width: 97%;
+    /*min-height: 400px;*/
+    margin-left: 5px;
+    background-color: #fafafa;
+
+}
+.beaches{
+    width:100%;
+    border: 2px solid black;
+}
+.description{
+    width:100%;
+    border: 2px solid black;
+    padding-left: 20px;
+}
